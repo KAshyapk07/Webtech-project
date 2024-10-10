@@ -15,8 +15,8 @@ E-coomerce web for games
 - Home page
 - login
 - registration page
-search(searches the game and gives details)
-details page of every game( price,gameplaypics , reviews, specs required/recommended )
-payment gateway
-add to cart 
-liked/ wishlist
+-search(searches the game and gives details)
+-details page of every game( price,gameplaypics , reviews, specs required/recommended )
+-payment gateway
+-add to cart 
+-liked/ wishlist
