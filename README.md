@@ -1,2 +1,2 @@
 # Webtech-project
-E-coomerce web for games
+E-commerce web for games
