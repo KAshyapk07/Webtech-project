@@ -20,3 +20,12 @@ E-coomerce web for games
 -payment gateway
 -add to cart 
 -liked/ wishlist
+
+
+
+colors-
+black-#08090A
+rose quartz-#A7A2A9
+seasalt-#F4F7F5
+day,s grey-#575A5E
+erie black-#222823
