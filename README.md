@@ -1,6 +1,11 @@
 # Webtech-project
 E-coomerce web for games
 
+Figma link
+
+https://www.figma.com/design/L3hxU3Q3DbbMbJHTQK6Pe9/wireframe?node-id=1-2&t=lwV4ZwzpuBNChNo9-1
+
+
 (using REACTJS)
 
 // KASHYAP //
