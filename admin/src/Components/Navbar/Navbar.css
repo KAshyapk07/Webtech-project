@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 30px;
+    box-shadow: 0 1px 3px -2px #000;
+
+    background: #fff;
+}
+
+.nav-profile{
+    width: 75px;
+}
+
+.Resize{
+    width: 75px;
+    height: auto;
+}
+
+#Parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.sub{
+    font-size: 10px;
+    font-weight: 500;
+}

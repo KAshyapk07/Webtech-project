@@ -1,0 +1,112 @@
+.loginsignup{
+    width: 100%;
+    height: 600px;
+
+    padding-top: 100px;
+}
+.loginsignup-container{
+    width: 480px;
+    height: 650px;
+    background-color:white ;
+    margin: auto;
+    padding: 40px 60px;
+    opacity: 0.5;
+}
+
+.loginsignup-container h1{
+    margin: 20px 0px;
+}
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.loginsignup-fields input{
+    height: 52px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9 ;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.loginsignup-container button{
+    width: 360px;
+    height: 52px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500; 
+}
+
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#Background-clip {
+    position: fixed; /* Fix to cover the screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the area without distortion */
+    z-index: -1; /* Keeps the video behind other elements */
+    overflow: hidden; /* Prevents overflow issues */
+}
+
+/* Optional: Handling aspect ratio issues */
+@media (min-aspect-ratio: 16/9) {
+    #Background-clip {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #Background-clip {
+        width: auto;
+        height: 100%;
+    }
+}
+.navbar{
+    position: relative; 
+    background: white;
+    backdrop-filter: blur(10px); 
+    color: #333;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px; 
+}
+.footer {
+    position: relative; 
+    background: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px); 
+    color: #333;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px; 
+}
